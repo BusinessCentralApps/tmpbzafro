@@ -2,8 +2,8 @@
   "type": "PTE",
   "useApproximateVersion": true,
   "incrementalBuilds": {
-    "mode": "modifiedProjects",
-    "onPush": true
+    "mode": "modifiedApps",
+    "onPush": false
   },
   "githubRunnerShell": "powershell",
   "doNotPublishApps": true,
