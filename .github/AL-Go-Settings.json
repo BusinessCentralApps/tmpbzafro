@@ -1,8 +1,15 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/6ce99a8c1b840818da308fae257c14ed6bf76c70/.Modules/settings.schema.json",
-  "githubRunnerShell": "powershell",
+  "type": "PTE",
   "useApproximateVersion": true,
-  "UseProjectDependencies": true,
+  "incrementalBuilds": {
+    "mode": "modifiedProjects",
+    "onPush": true
+  },
+  "githubRunnerShell": "powershell",
+  "doNotPublishApps": true,
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/Actions/6ce99a8c1b840818da308fae257c14ed6bf76c70/.Modules/settings.schema.json",
+  "templateSha": "3d970e6f4dcab39fec3b7749d227de642de9b3a6",
+  "templateUrl": "https://github.com/businesscentralapps/tmpyJUtvM-PTE@main",
   "conditionalSettings": [
     {
       "workflows": [
@@ -16,14 +23,8 @@
       }
     }
   ],
-  "doNotPublishApps": true,
-  "githubRunner": "windows-latest",
-  "incrementalBuilds": {
-    "onPush": true
-  },
-  "MicrosoftTelemetryConnectionString": "",
-  "templateUrl": "https://github.com/businesscentralapps/tmpyJUtvM-PTE@main",
-  "type": "PTE",
+  "UseProjectDependencies": true,
   "useCompilerFolder": true,
-  "templateSha": "3d970e6f4dcab39fec3b7749d227de642de9b3a6"
+  "MicrosoftTelemetryConnectionString": "",
+  "githubRunner": "windows-latest"
 }
